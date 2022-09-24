@@ -86,7 +86,7 @@ section button {
     border-radius: 5px;
     margin: 15px;
 
-    -webkit-box-shadow: 6px 6px 9px -3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 6px 6px 9px -3px rgba(0, 0, 0, 0.856);
     -moz-box-shadow: 6px 6px 9px -3px rgba(0,0,0,0.5);
     box-shadow: 6px 6px 9px -3px rgba(0,0,0,0.5);
     

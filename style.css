@@ -9,14 +9,13 @@ body {
     background-color:rgb(39, 75, 69) ;
     
 }
-nav {
+nav {      /*barra do menu*/
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
     background-color: rgb(245, 149, 6);
     height: 50px;
-    border-bottom: 2px solid #5922a0fb;
     position: fixed; 
     top: 0;
     padding-top: 0;
@@ -26,15 +25,9 @@ nav {
  }
 
 
-h2 {
+h2 {     /*nome Erika na barra de menu - dentro da nav*/
     margin-left: 100px;
-    color: rgb(39, 75, 69);
-}
-
-h1 {
-    font-size: 35px;
-    
-    
+    color: rgb(74, 75, 39);
 }
 
 ul li {
@@ -63,22 +56,33 @@ button {
     cursor: pointer;
 }
      
-section {
+section {       /*bloco Olá!Eu sou a Erika com desenho*/
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
     margin: 100px;
     
+  
 }
 
-section img {
+.ola {       /*bloco Olá!Eu sou a Erika com desenho*/
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 100px;
+    
+  
+}
+section img {       /*imagem de desenho*/
+      
     width: 440px;
     height: 440px;
     margin: 0px 100px;
 }
 
-section button {
+section button {       /*botoes linkedin e github*/
     background-color: rgb(39, 75, 69);
     font:bold;
     border: solid 1px rgb(245, 149, 6);
@@ -93,19 +97,21 @@ section button {
     
 }
 
-.mim { /**DIV CLASS MIM**/
+.mim {                /**minha foto**/
     width: 250px; 
     height: 250px;
-    
+       
 }
 
-.sobre {
+.sobremim {        /*titulo e descrição sobre mim esta dentro da section sobre mim*/
     display:flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    margin: 200px;
-}
+    text-align: justify;
+    padding: 120px;
+    margin: 10px;
+    }
 
 .projetos {
     display:flex;
@@ -113,30 +119,29 @@ section button {
     justify-content: space-around;
     align-items: center;
     margin: 50px;
+    
 }
 .experiencia {
     margin: 100px;
     height: 0px;
+    padding: 0px;
 }
 
-.exp {
-    width: 60%;
+.exp {        /*quadrados da experiencia*/
+    width:60%;
     height: 280px;
     background-color: white;
     border-radius: 8px;
     
-    padding: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+    padding: 20px;
+    
 
     -webkit-box-shadow: 6px 6px 9px -3px rgba(0,0,0,0.5);
     -moz-box-shadow: 6px 6px 9px -3px rgba(0,0,0,0.5);
     box-shadow: 6px 6px 9px -3px rgba(0,0,0,0.5);
 }
 
-main {
+main {        /*fundo dos quadrados do projeto*/
     width: 960px;
     height: auto;
     margin: 0 auto;
@@ -145,11 +150,12 @@ main {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    
 }
 
-main .card {
+main .card {        /*quadrados do projeto*/
     width: 28%;
-    height: 250px;
+    height: 300px;
     background-color: white;
     border-radius: 8px;
     
@@ -164,12 +170,11 @@ main .card {
     padding: 15px;
     width: 0 auto;
     border-radius: 8px;
-    background-color: rgb(198, 248, 60);
+    background-color: rgb(245, 149, 6);
     margin: 20px;
     
 
     display: flex;
-    align-items: center;
     justify-content: space-evenly;   
 
     -webkit-box-shadow: 6px 6px 9px -3px rgba(0,0,0,0.5);

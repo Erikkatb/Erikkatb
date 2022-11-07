@@ -6,7 +6,7 @@ font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 body {
-    background-color:rgb(38, 32, 56) ;
+    background-color:rgb(39, 75, 69) ;
     
 }
 nav {
@@ -14,7 +14,7 @@ nav {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(198, 248, 60);
+    background-color: rgb(245, 149, 6);
     height: 50px;
     border-bottom: 2px solid #5922a0fb;
     position: fixed; 
@@ -28,6 +28,7 @@ nav {
 
 h2 {
     margin-left: 100px;
+    color: rgb(39, 75, 69);
 }
 
 h1 {
@@ -39,24 +40,24 @@ h1 {
 ul li {
     display: inline;
     list-style: none;
-    color:black;
-    cursor: pointer;
+    
 }
 
-ul li :hover { }
+/* ul li :hover { } */
 
 a {
     text-decoration: none;
-    color: black;
+    color: rgb(39, 75, 69);
     padding: 0px 15px;
 }
 
+
 button {
-    background-color:rgb(198, 248, 60) ;  
-    color: rgb(12, 12, 12);
+    background-color:rgb(245, 149, 6) ;  
+    color: rgb(39, 75, 69);
     width: 180px;
     height: 36px;
-    border: solid 2px;
+    border: solid 1px;
     border-radius: 5px;
     margin: 5px;
     cursor: pointer;
@@ -72,15 +73,15 @@ section {
 }
 
 section img {
-    width: 320px;
+    width: 440px;
     height: 440px;
     margin: 0px 100px;
 }
 
 section button {
-    background-color: white;
+    background-color: rgb(39, 75, 69);
     font:bold;
-    border: solid 2px black;
+    border: solid 1px rgb(245, 149, 6);
     width: 190px;
     height: 36px;
     border-radius: 5px;
@@ -95,6 +96,7 @@ section button {
 .mim { /**DIV CLASS MIM**/
     width: 250px; 
     height: 250px;
+    
 }
 
 .sobre {
@@ -164,6 +166,7 @@ main .card {
     border-radius: 8px;
     background-color: rgb(198, 248, 60);
     margin: 20px;
+    
 
     display: flex;
     align-items: center;

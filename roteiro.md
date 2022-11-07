@@ -4,9 +4,9 @@
                  de Testes de Software (Última School).
 
 # Referências
-    - ícones e imagens
+    - imagens - autorais
+    - Remoção de fundo da imagem no site https://www.remove.bg/pt-br
 
-# Fontes
 
 # Etapas
     - Elaboração do layout
@@ -14,6 +14,5 @@
     - Criação de pasta com arquivos e imagens 
     - Estrutura das divs
     - Melhoria e ajustes no estilo
+    - Envio para GitHub
 
-# Desafios
-    - 
